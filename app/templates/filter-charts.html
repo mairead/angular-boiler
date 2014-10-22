@@ -1,9 +1,0 @@
-<h3>Filter by Stamina</h3>
-
-<!-- is it worth creating new directive for the ng-repeat just to use the require ^outerDirective 
-	for passing the controller value /scope inside? -->
-<ul>
-	<li ng-repeat="item in filters" class="stamina-value">
-		<label>Value:  <input type="checkbox" ng-change="filterCharts(item)" ng-model="item.value"> {{item.stamina}}</label>
-	</li>
-</ul>
